@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="Kode Barang"
+        android:textSize="6pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userInput2"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="Qty"
+        android:textSize="6pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:inputType="numberSigned" />
+
+</LinearLayout>
